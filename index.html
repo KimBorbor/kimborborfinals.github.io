@@ -1,0 +1,235 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <title>Sneakerheads</title>
+    <style>
+        header {
+            background: url('img/A1.jpg') no-repeat center center;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        .section {
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+
+        .tabs .indicator {
+            background-color: #c2185b;
+        }
+
+        .tabs .tab a:focus, .tabs .tab a:focus.active {
+            background: transparent;
+        }
+
+        @media screen and (max-width: 670px) {
+            header {
+                min-height: 500px;
+            }
+        }
+
+        .parallax-container {
+            height: 500px;
+        }
+
+        .footer-copyright {
+            background-color: #333;
+        }
+
+        .brand-logo {
+            font-family: 'Arial', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .tooltipped {
+            position: relative;
+        }
+
+        .tooltipped i {
+            font-size: 24px;
+        }
+
+        .responsive-link {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">Sneakerheads</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#sneakers">Sneakers</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small red darken-4" data-tooltip="Follow us on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small blue darken-4" data-tooltip="Like us on Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#sneakers">Sneakers</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container section scrollspy" id="sneakers">
+        <div class="row">
+            <div class="col s12 l4">
+                <a href="airmax.html" class="responsive-link">
+                    <img src="img/A20.png" alt="Air Max Sneakers" class="responsive-img materialboxed">
+                </a>
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-2"><a href="airmax.html" class="responsive-link">Air Max Collection</a></h2>
+                <p>Discover the comfort and style that has made Air Max a household name. From classic designs to new releases, our collection brings you the best of this iconic sneaker.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <a href="jordan.html" class="responsive-link">
+                    <img src="img/A19.png" alt="Jordan Sneakers" class="responsive-img materialboxed">
+                </a>
+            </div>
+            <div class="col s12 l6 pull-l4 right-align">
+                <h2 class="indigo-text text-darken-2"><a href="jordan.html" class="responsive-link">Jordan Series</a></h2>
+                <p>The Jordan brand has set the standard for premium basketball shoes. Whether you're on the court or off, our selection of Jordans brings style and performance together.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4">
+                <a href="sbdunk.html" class="responsive-link">
+                    <img src="img/A18.png" alt="Sb Dunks Sneakers" class="responsive-img materialboxed">
+                </a>
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-2"><a href="sbdunk.html" class="responsive-link">SB Dunks</a></h2>
+                <p>Step up your sneaker game with the iconic Nike SB Dunk! Originally designed for skateboarding, these kicks combine performance with style. Known for their bold, limited-edition colorways and collaborations, SB Dunks are a must-have for sneakerheads.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <a href="blazer.html" class="responsive-link">
+                    <img src="img/A27.png" alt="Blazers" class="responsive-img materialboxed">
+                </a>
+            </div>
+            <div class="col s12 l6 pull-l4 right-align">
+                <h2 class="indigo-text text-darken-2"><a href="blazer.html" class="responsive-link">Blazers</a></h2>
+                <p>Elevate your footwear collection with the timeless Nike Blazer! A true classic that’s stood the test of time, the Blazer delivers both style and versatility. Whether you're rocking them for a casual look or adding an edge to your streetwear, these sneakers bring a sleek, retro vibe with a modern twist.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/A4.jpg" alt="Sneaker Parallax" class="responsive-img">
+        </div>
+    </div>
+
+    <section class="container section scrollspy" id="collections">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">Featured Sneakers</h2>
+                <p>Explore our featured collections, from limited-edition collaborations to timeless classics. Each sneaker tells a story.</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#running" class="indigo-text text-darken-4">Running Shoes</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#basketball" class="indigo-text text-darken-4">Basketball Shoes</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="running">
+                    <p class="flow-text indigo-text text-darken-4">RUNNING SHOES</p>
+                    <p>Light, fast, and engineered for performance—our running shoes are built for the athlete who pushes limits.</p>
+                </div>
+                <div class="col s12" id="basketball">
+                    <p class="flow-text indigo-text text-darken-4">BASKETBALL SHOES</p>
+                    <p>Designed for agility and support, these basketball shoes will help you break records and your opponents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+                <p>If you have any questions or want to know more about our sneaker collections, feel free to contact us. We're here to help!</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email">
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">message</i>
+                    <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <div class="input-field center">
+                    <button class="btn red darken-4">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Sneakerhead Central</h5>
+                    <p>Your go-to destination for sneaker culture. Whether you're a seasoned collector or just getting started, we’ve got you covered with the latest drops and iconic models.</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2024 Sneakerheads</div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <title>Air Max Collection</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #000000, #e5f3ff);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .back-link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: black;
+            border-radius: 5px;
+        }
+
+        .collection-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+            padding: 0 10px;
+        }
+
+        .collection-images img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="black-text text-darken-2 center-align">Air Max Collection</h1>
+        <p class="center-align">Discover the best of Air Max sneakers.</p>
+
+        <div class="collection-images">
+            <img src="img/A8.png" alt="Air Max 90" class="materialboxed">
+            <img src="img/A9.png" alt="Air Max 90" class="materialboxed">
+            <img src="img/A10.png" alt="Air Max 90" class="materialboxed">
+        </div>
+
+        <div class="collection-images">
+            <img src="img/A6.png" alt="Air Max 97" class="materialboxed">
+            <img src="img/A7.png" alt="Air Max 97" class="materialboxed">
+            <img src="img/A5.jpg" alt="Air Max 97" class="materialboxed">
+        </div>
+
+        <a href="index.html" class="back-link">Back to Homepage</a>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
+        });
+    </script>
+
+</body>
+</html>
